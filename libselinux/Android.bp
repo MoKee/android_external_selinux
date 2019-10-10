@@ -41,6 +41,12 @@ cc_defaults {
             ],
         },
 
+        linux: {
+            srcs: [
+                "src/sestatus.c",
+            ],
+        },
+
         android: {
             srcs: [
                 "src/android/android.c",
