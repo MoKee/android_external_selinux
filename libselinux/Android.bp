@@ -40,6 +40,12 @@ cc_defaults {
             ],
         },
 
+        linux: {
+            srcs: [
+                "src/sestatus.c",
+            ],
+        },
+
         android: {
             srcs: [
                 "src/android/android.c",
@@ -70,7 +76,6 @@ cc_defaults {
                 "src/policyvers.c",
                 "src/procattr.c",
                 "src/reject_unknown.c",
-                "src/sestatus.c",
                 "src/setenforce.c",
                 "src/setfilecon.c",
                 "src/stringrep.c",
